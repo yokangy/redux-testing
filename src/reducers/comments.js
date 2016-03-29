@@ -6,4 +6,6 @@ export default function(state = [], action) {
       return [...state, action.payload];
       // return state.concat([action.payload]);
   }
+
+  return state;
 }
